@@ -52,7 +52,7 @@ class App extends React.Component {
                                     </select>
                                 </label>
                                 <label>
-                                    是否为管理员
+                                    是否为管理员：
                                     <input type="checkbox" name="isAdmin" checked={user.isAdmin} onChange={(e) => this.changeHandler(e,userIndex)}/>
                                 </label>
                             </div>
